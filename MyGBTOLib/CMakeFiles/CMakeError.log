@@ -1,0 +1,18 @@
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /home/nico/Workspace/Progs/Ints_From_gbtolib/MyGBTOLib/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1054d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1054d.dir/build.make CMakeFiles/cmTC_1054d.dir/build
+gmake[1]: Entering directory '/home/nico/Workspace/Progs/Ints_From_gbtolib/MyGBTOLib/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_1054d.dir/testFortranCompiler.f.o
+/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/ifort    -c /home/nico/Workspace/Progs/Ints_From_gbtolib/MyGBTOLib/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_1054d.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_1054d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1054d.dir/link.txt --verbose=1
+/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64/ifort CMakeFiles/cmTC_1054d.dir/testFortranCompiler.f.o -o cmTC_1054d 
+ld: CMakeFiles/cmTC_1054d.dir/testFortranCompiler.f.o: in function `MAIN__':
+testFortranCompiler.f:(.text+0x37): undefined reference to `sgemm_'
+gmake[1]: *** [CMakeFiles/cmTC_1054d.dir/build.make:99: cmTC_1054d] Error 1
+gmake[1]: Leaving directory '/home/nico/Workspace/Progs/Ints_From_gbtolib/MyGBTOLib/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1054d/fast] Error 2
+
+
+
