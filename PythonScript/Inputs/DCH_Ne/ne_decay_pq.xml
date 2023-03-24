@@ -1,0 +1,13 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_decay_pq </outfile>
+  <spin> 1 </spin>
+  <electron na='4' nb='4' />
+ </general>
+
+ <block>
+   <space ne='8' imo='1' fmo='4' />
+ </block>
+
+</input>

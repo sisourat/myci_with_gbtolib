@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_doublet.out </outfile>
+  <spin> 2 </spin>
+  <electron na='4' nb='3' />
+ </general>
+
+ <block>
+   <space ne='1' imo='1' fmo='1' />
+   <space ne='6' imo='2' fmo='5' />
+ </block>
+
+</input>

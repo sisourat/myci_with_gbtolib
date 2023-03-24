@@ -1,0 +1,15 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_final_94.out </outfile>
+  <spin> 1 </spin>
+  <electron na='4' nb='4' />
+ </general>
+
+ <block>
+   <space ne='1' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='94' fmo='94' />
+ </block>
+
+</input>

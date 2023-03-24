@@ -1,0 +1,15 @@
+<input>
+
+ <general>
+  <outfile> ci_co_decay_trip </outfile>
+  <spin> 3 </spin>
+  <electron na='7' nb='5' />
+ </general>
+
+ <block>
+   <space ne='10' imo='1' fmo='5' />
+   <space ne='1' imo='6' fmo='6' />
+   <space ne='1' imo='7' fmo='7' />
+ </block>
+
+</input>

@@ -1,0 +1,15 @@
+<input>
+
+ <general>
+  <outfile> ci_nehene_final_X </outfile>
+  <spin> 2 </spin>
+  <electron na='11' nb='10' />
+ </general>
+
+ <block>
+   <space ne='8' imo='1' fmo='4' />
+   <space ne='12' imo='5' fmo='11' />
+   <space ne='1' imo='14' fmo='14' />
+ </block>
+
+</input>

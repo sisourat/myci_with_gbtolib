@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_hehe_final_triplet </outfile>
+  <spin> 3 </spin>
+  <electron na='2' nb='2' />
+ </general>
+
+ <block>
+   <space ne='3' imo='1' fmo='2' />
+   <space ne='1' imo='23' fmo='134' />
+ </block>
+
+</input>

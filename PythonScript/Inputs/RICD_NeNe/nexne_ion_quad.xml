@@ -1,0 +1,20 @@
+<input>
+
+ <general>
+  <outfile> ci_nexne_ion </outfile>
+  <spin> 4 </spin>
+  <electron na='10' nb='9' />
+ </general>
+
+ <block>
+   <space ne='8' imo='1' fmo='4' />
+   <space ne='11' imo='5' fmo='10' />
+ </block>
+
+  <block>
+   <space ne='8' imo='1' fmo='4' />
+   <space ne='10' imo='5' fmo='10' />
+   <space ne='1' imo='11' fmo='38' />
+ </block>
+
+</input>

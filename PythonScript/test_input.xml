@@ -1,0 +1,21 @@
+<input>
+
+ <general>
+  <outfile> ci_water_decay.out </outfile>
+  <spin> 2 </spin>
+  <electron na='5' nb='4' />
+ </general>
+
+ <block>
+   <space ne='10' imo='1' fmo='5' />
+   <space ne='2' imo='6' fmo='6' />
+   <space ne='1' imo='7' fmo='7' />
+ </block>
+
+ <block>
+   <space ne='10' imo='1' fmo='5' />
+   <space ne='1' imo='6' fmo='6' />
+   <space ne='2' imo='7' fmo='7' />
+ </block>
+
+</input>

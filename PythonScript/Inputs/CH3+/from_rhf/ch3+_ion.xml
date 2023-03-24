@@ -1,0 +1,20 @@
+<input>
+
+ <general>
+  <outfile> ci_ch3_ion.out </outfile>
+  <spin> 2 </spin>
+  <electron na='4' nb='3' />
+ </general>
+
+ <block>
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='5' imo='2' fmo='4' />
+ </block>
+
+ <block>
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='4' imo='2' fmo='4' />
+   <space ne='1' imo='5' fmo='13' />
+ </block>
+
+</input>

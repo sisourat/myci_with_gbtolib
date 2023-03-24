@@ -1,0 +1,16 @@
+<input>
+
+ <general>
+  <outfile> ci_co_final_X </outfile>
+  <spin> 1 </spin>
+  <electron na='6' nb='6' />
+ </general>
+
+ <block>
+   <space ne='8' imo='2' fmo='6' />
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='1' imo='7' fmo='7' />
+   <space ne='1' imo='X' fmo='X' />
+ </block>
+
+</input>

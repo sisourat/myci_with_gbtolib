@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_partic.out </outfile>
+  <spin> 2 </spin>
+  <electron na='5' nb='5' />
+ </general>
+
+ <block>
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='7' imo='2' fmo='5' />
+ </block>
+
+</input>

@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_hehe_decay_triplet </outfile>
+  <spin> 3 </spin>
+  <electron na='2' nb='2' />
+ </general>
+
+ <block>
+   <space ne='2' imo='1' fmo='2' />
+   <space ne='2' imo='3' fmo='10' />
+ </block>
+
+</input>

@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_li_X </outfile>
+  <spin> 2 </spin>
+  <electron na='2' nb='1' />
+ </general>
+
+ <block>
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='1' imo='2' fmo='56' />
+ </block>
+
+</input>

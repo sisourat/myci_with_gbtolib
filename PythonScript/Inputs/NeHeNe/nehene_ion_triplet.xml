@@ -1,0 +1,21 @@
+<input>
+
+ <general>
+  <outfile> ci_nehene_ion_triplet </outfile>
+  <spin> 3 </spin>
+  <electron na='11' nb='9' />
+ </general>
+
+ <block>
+   <space ne='8' imo='1' fmo='4' />
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='10' imo='6' fmo='11' />
+ </block>
+
+ <block>
+   <space ne='8' imo='1' fmo='4' />
+   <space ne='1' imo='5' fmo='5' />
+   <space ne='11' imo='6' fmo='11' />
+ </block>
+
+</input>

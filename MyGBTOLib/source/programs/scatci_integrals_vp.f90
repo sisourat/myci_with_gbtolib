@@ -128,42 +128,41 @@ program scatci_integrals_vp
 
       molecular_orbital_basis%ao_integral_storage => atomic_1el_integral_storage !point to the storage for the atomic integrals
       call molecular_orbital_basis%one_electron_integrals(molecular_integral_storage,integral_options)
-     stop
 
       !
       ! RUN FREE-POTENTIAL SCATTERING:
       !
 
-      if (run_free_scattering .and. number_of_continuum_shells > 0) then
-         call free_scattering(molecular_integral_storage, molecular_orbital_basis, a, min_energy, max_energy, nE)
-      end if
+!nico  if (run_free_scattering .and. number_of_continuum_shells > 0) then
+!nico     call free_scattering(molecular_integral_storage, molecular_orbital_basis, a, min_energy, max_energy, nE)
+!nico  end if
+!nico
+!nico  !
+!nico  ! CALCULATE THE 2-ELECTRON INTEGRALS:
+!nico  !
+!nico
+!nico  if (do_two_particle_integrals) then
+!nico     call calculate_2el_integrals
+!nico  end if
+!nico
+!nico  if (construct_canonical_continuum) then
+!nico     call molecular_orbital_basis%construct_canonical_continuum(atomic_1el_integral_storage, atomic_2el_integral_storage, &
+!nico                     molecular_integral_storage, integral_options, molecular_2el_algorithm, n_cont_bto, n_cont_cgto, &
+!nico                     mo_integrals_file_name, can_mo_integrals_file_name)
+!nico  endif
+!nico
+!nico  !
+!nico  ! CALCULATE RADIAL CHARGE DENSITIES FOR ALL ORBITALS:
+!nico  !
+!nico
+!nico  if (calc_radial_densities .and. integral_options % a > 0.0_cfp) then
+!nico     call molecular_orbital_basis % radial_charge_density(integral_options % a, 0.0_cfp, &
+!nico          integral_options % a, 0.1_cfp, .true., amplitudes)
+!nico  end if
 
-      !
-      ! CALCULATE THE 2-ELECTRON INTEGRALS:
-      !
-
-      if (do_two_particle_integrals) then
-         call calculate_2el_integrals
-      end if
-
-      if (construct_canonical_continuum) then
-         call molecular_orbital_basis%construct_canonical_continuum(atomic_1el_integral_storage, atomic_2el_integral_storage, &
-                         molecular_integral_storage, integral_options, molecular_2el_algorithm, n_cont_bto, n_cont_cgto, &
-                         mo_integrals_file_name, can_mo_integrals_file_name)
-      endif
-
-      !
-      ! CALCULATE RADIAL CHARGE DENSITIES FOR ALL ORBITALS:
-      !
-
-      if (calc_radial_densities .and. integral_options % a > 0.0_cfp) then
-         call molecular_orbital_basis % radial_charge_density(integral_options % a, 0.0_cfp, &
-              integral_options % a, 0.1_cfp, .true., amplitudes)
-      end if
-
-      call atomic_1el_integral_storage%final
-      call atomic_2el_integral_storage%final
-      call molecular_integral_storage%final
+!nico      call atomic_1el_integral_storage%final
+!nico      call atomic_2el_integral_storage%final
+!nico      call molecular_integral_storage%final
 
       call mpi_mod_finalize
 

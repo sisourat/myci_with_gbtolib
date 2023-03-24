@@ -1,0 +1,26 @@
+<input>
+
+ <general>
+  <outfile> ci_ch2+_ion_triplet </outfile>
+  <spin> 3 </spin>
+  <electron na='3' nb='3' />
+ </general>
+
+ <block>
+   <space ne='2' imo='4' fmo='4' />
+   <space ne='4' imo='1' fmo='3' />
+ </block>
+
+ <block>
+   <space ne='2' imo='4' fmo='4' />
+   <space ne='3' imo='1' fmo='3' />
+   <space ne='1' imo='5' fmo='5' />
+ </block>
+
+ <block>
+   <space ne='2' imo='4' fmo='4' />
+   <space ne='3' imo='1' fmo='3' />
+   <space ne='1' imo='6' fmo='6' />
+ </block>
+
+</input>

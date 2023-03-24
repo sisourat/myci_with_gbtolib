@@ -20,7 +20,7 @@ PROGRAM main
   call GBTO_INIT(.true.)
   write(6,'(/,"GBTOlib initialized.")')
 
-  write(*,*)GET_INTEGRAL(1,1,0,0,0),GET_KINETIC_ENERGY_INTEGRAL(1,1)
+  write(*,*)GET_INTEGRAL(1,1,0,0,0)+GET_KINETIC_ENERGY_INTEGRAL(1,1)
 !  write(*,*)GET_INTEGRAL(1,1,1,1,0)
 
   call FINALIZE_MPI

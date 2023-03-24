@@ -1,0 +1,3 @@
+python  /home/nico/Workspace/GeneralFanoCICode/PythonScript/ormas_like.py /home/nico/Workspace/GeneralFanoCICode/PythonScript/test_input_setup/ne_decay_pq.xml > a
+cat header.txt a >  input
+rm a b header.txt

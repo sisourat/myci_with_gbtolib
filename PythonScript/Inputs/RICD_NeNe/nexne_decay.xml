@@ -1,0 +1,18 @@
+<input>
+
+ <general>
+  <outfile> ci_nexne_decay4 </outfile>
+  <spin> 1 </spin>
+  <electron na='10' nb='10' />
+ </general>
+
+ <block>
+   <space ne='4' imo='1' fmo='2' />
+   <space ne='12' imo='5' fmo='10' />
+
+   <space ne='1' imo='4' fmo='4' />
+   <space ne='1' imo='11' fmo='38' />
+   <space ne='2' imo='3' fmo='3' />
+ </block>
+
+</input>

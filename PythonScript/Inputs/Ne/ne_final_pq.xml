@@ -1,0 +1,22 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_final_pq.out </outfile>
+  <spin> 1 </spin>
+  <electron na='5' nb='5' />
+ </general>
+
+ <block>
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='7' imo='2' fmo='5' />
+   <space ne='1' imo='60' fmo='75' />
+ </block>
+
+ <block>
+   <space ne='2' imo='1' fmo='1' />
+   <space ne='6' imo='2' fmo='5' />
+   <space ne='1' imo='6' fmo='12' />
+   <space ne='1' imo='60' fmo='75' />
+ </block>
+
+</input>

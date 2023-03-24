@@ -1,0 +1,15 @@
+<input>
+
+ <general>
+  <outfile> ci_ch2+_final_X </outfile>
+  <spin> 2 </spin>
+  <electron na='4' nb='3' />
+ </general>
+
+ <block>
+   <space ne='2' imo='4' fmo='4' />
+   <space ne='4' imo='1' fmo='3' />
+   <space ne='1' imo='X' fmo='X' />
+ </block>
+
+</input>

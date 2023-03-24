@@ -1,0 +1,20 @@
+<input>
+
+ <general>
+  <outfile> ci_ch2_decay </outfile>
+  <spin> 2 </spin>
+  <electron na='4' nb='3' />
+ </general>
+
+ <block>
+   <space ne='1' imo='4' fmo='4' />
+   <space ne='6' imo='1' fmo='3' />
+ </block>
+
+ <block>
+   <space ne='1' imo='4' fmo='4' />
+   <space ne='5' imo='1' fmo='3' />
+   <space ne='1' imo='5' fmo='10' />
+ </block>
+
+</input>

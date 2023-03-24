@@ -805,7 +805,6 @@ module molecular_basis_gbl
                   else
                      mo_integrals%a(ij,int_type) = mo_int
                   endif
-                  write(*,*)int_type,i,j,mo_int
                enddo !j
             enddo !i
             !$OMP END DO
@@ -814,6 +813,18 @@ module molecular_basis_gbl
             write(level1,'("...done")')
 
          enddo !int_type
+
+            open(unit=10,file='moints_vp',status='replace')  
+            int_type=3 !nuclei-electron attraction terms
+            write(10,*)this%number_of_functions
+            do i=1,this%number_of_functions
+               do j=1,i
+                  !the ij indexing is equivalent to the index function
+                  ij = i*(i-1)/2+j
+                  if(abs(mo_integrals%a(ij,int_type))>integral_options%tol) write(10,'(2(i4,1X),100(f25.16,1X))')j,i,mo_integrals%a(ij,:)
+               enddo
+            enddo
+            close(10)
 
          deallocate(cf_t,int_index,iq,ind)
 

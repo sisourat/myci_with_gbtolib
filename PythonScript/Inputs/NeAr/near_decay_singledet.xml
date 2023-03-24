@@ -1,0 +1,16 @@
+<input>
+
+ <general>
+  <outfile> ci_near_decay_singledet.out </outfile>
+  <spin> 2 </spin>
+  <electron na='14' nb='13' />
+ </general>
+
+ <block>
+   <space ne='12' imo='1' fmo='6' />
+   <space ne='1' imo='7' fmo='7' />
+   <space ne='14' imo='8' fmo='14' />
+ </block>
+
+
+</input>

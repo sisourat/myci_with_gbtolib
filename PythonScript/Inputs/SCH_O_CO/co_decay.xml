@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_co_decay </outfile>
+  <spin> 2 </spin>
+  <electron na='7' nb='6' />
+ </general>
+
+ <block>
+   <space ne='12' imo='1' fmo='6' />
+   <space ne='1' imo='7' fmo='7' />
+ </block>
+
+</input>

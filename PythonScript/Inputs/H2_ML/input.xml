@@ -1,0 +1,13 @@
+<input>
+
+ <general>
+  <outfile> ci_ML </outfile>
+  <spin> 1 </spin>
+  <electron na='1' nb='1' />
+ </general>
+
+ <block>
+   <space ne='2' imo='1' fmo='11' />
+ </block>
+
+</input>

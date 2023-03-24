@@ -1,0 +1,15 @@
+<input>
+
+ <general>
+  <outfile> ci_near_ion_singlet.out </outfile>
+  <spin> 3 </spin>
+  <electron na='14' nb='12' />
+ </general>
+
+ <block>
+   <space ne='16' imo='1' fmo='8' />
+   <space ne='10' imo='9' fmo='14' />
+ </block>
+
+
+</input>

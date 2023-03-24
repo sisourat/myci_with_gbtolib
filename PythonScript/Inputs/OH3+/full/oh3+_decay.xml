@@ -1,0 +1,15 @@
+<input>
+
+ <general>
+  <outfile> ci_oh3_decay </outfile>
+  <spin> 1 </spin>
+  <electron na='5' nb='5' />
+ </general>
+
+ <block>
+   <space ne='1' imo='5' fmo='5' />
+   <space ne='8' imo='1' fmo='4' />
+   <space ne='1' imo='6' fmo='9' />
+ </block>
+
+</input>

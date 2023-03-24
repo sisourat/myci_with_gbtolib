@@ -1,0 +1,36 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_final_X.out </outfile>
+  <spin> 1 </spin>
+  <electron na='5' nb='5' />
+ </general>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='7' imo='1' fmo='4' />
+   <space ne='1' imo='X' fmo='X' />
+ </block>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='6' fmo='8' />
+   <space ne='1' imo='X' fmo='X' />
+ </block>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='12' fmo='12' />
+   <space ne='1' imo='X' fmo='X' />
+ </block>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='132' fmo='133' />
+   <space ne='1' imo='X' fmo='X' />
+ </block>
+
+</input>

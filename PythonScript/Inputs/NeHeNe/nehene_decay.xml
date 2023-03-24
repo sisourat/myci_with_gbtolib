@@ -1,0 +1,18 @@
+<input>
+
+ <general>
+  <outfile> ci_nehene_decay3 </outfile>
+  <spin> 2 </spin>
+  <electron na='11' nb='10' />
+ </general>
+
+ <block>
+   <space ne='4' imo='1' fmo='2' />
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='12' imo='6' fmo='11' />
+
+   <space ne='2' imo='4' fmo='4' />
+   <space ne='1' imo='3' fmo='3' />
+ </block>
+
+</input>

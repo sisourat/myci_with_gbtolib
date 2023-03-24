@@ -1,0 +1,27 @@
+<input>
+
+ <general>
+  <outfile> ci_ne_ion.out </outfile>
+  <spin> 2 </spin>
+  <electron na='5' nb='4' />
+ </general>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='6' fmo='8' />
+ </block>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='12' fmo='12' />
+ </block>
+
+ <block>
+   <space ne='2' imo='5' fmo='5' />
+   <space ne='6' imo='1' fmo='4' />
+   <space ne='1' imo='132' fmo='133' />
+ </block>
+
+</input>

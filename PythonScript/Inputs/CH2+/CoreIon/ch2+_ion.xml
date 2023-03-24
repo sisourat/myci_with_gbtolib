@@ -1,0 +1,14 @@
+<input>
+
+ <general>
+  <outfile> ci_ch2+_ion_doublet </outfile>
+  <spin> 2 </spin>
+  <electron na='3' nb='2' />
+ </general>
+
+ <block>
+   <space ne='2' imo='4' fmo='4' />
+   <space ne='3' imo='1' fmo='3' />
+ </block>
+
+</input>
