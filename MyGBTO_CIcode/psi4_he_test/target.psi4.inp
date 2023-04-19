@@ -1,0 +1,25 @@
+# helium.molden with cc-pVDZ basis
+
+molecule helium {
+
+    symmetry C1     # point group
+    units    au     # units (ang/au)
+
+    no_reorient     # prevent automatic rotation to canonical orientation (for testing)
+    no_com          # prevent automatic shift to centre
+
+    He   0.000000000   0.000000000  0.00000000
+
+}
+
+set {
+
+    basis cc-pVDZ
+    reference       rhf
+    maxiter         100
+}
+
+[E, wfn] = energy('scf', return_wfn=True)
+
+molden(wfn, 'helium.molden')
+

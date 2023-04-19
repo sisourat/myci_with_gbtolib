@@ -1,1 +1,9 @@
-archives
+archives/
+CIcode/
+MyGBTOLib_Driver/psi4test/moints_vp
+MyGBTOLib_Driver/nicotest/archives/
+MyGBTOLib_Driver/psi4test/archives/
+MyGBTO_CIcode/psi4test/archives/
+MyGBTO_CIcode/psi4*/ci_eigvec
+PythonScript/archives/
+

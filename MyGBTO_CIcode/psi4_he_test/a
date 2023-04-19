@@ -1,0 +1,925 @@
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.46805458990957       -3.36861062035157     
+           2           1   1.98236740727293        1.98236818718098     
+           2           2  -3.40714977989131       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -10.0
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.48508470918935       -3.36861062035157     
+           2           1   1.98236689112837        1.98236818718098     
+           2           2  -3.42418014964272       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -8.520496410158987
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.50649725878501       -3.36861062035157     
+           2           1   1.98236603887913        1.98236818718098     
+           2           2  -3.44559311274157       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -7.175493146667154
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.53403910292159       -3.36861062035157     
+           2           1   1.98236470191346        1.98236818718098     
+           2           2  -3.47313560530966       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -5.9527629071291255
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.57047272991120       -3.36861062035157     
+           2           1  -1.98236292849312        1.98236818718098     
+           2           2  -3.50957005086238       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -4.841189962094553
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.62037393644504       -3.36861062035157     
+           2           1  -1.98236403431579        1.98236818718098     
+           2           2  -3.55945923887463       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -3.8306691029722155
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.69185405387223       -3.36861062035157     
+           2           1   1.98250544790383        1.98236818718098     
+           2           2  -3.63014481658785       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -2.9120137764973633
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.80244636262741       -3.36861062035157     
+           2           1  -1.98516346820271        1.98236818718098     
+           2           2  -3.72532226374460       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -2.0768725706111337
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.99607526145715       -3.36861062035157     
+           2           1  -2.00389870300303        1.98236818718098     
+           2           2  -3.80571236578528       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -1.3176532925327433
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -4.31422200362475       -3.36861062035157     
+           2           1   2.05134849317233        1.98236818718098     
+           2           2  -3.79426075397734       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 -0.6274539488251158
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -4.54393867698356       -3.36861062035157     
+           2           1  -2.07650747566032        1.98236818718098     
+           2           2  -3.75203589073209       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 0.0
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -4.33908316504259       -3.36861062035157     
+           2           1  -2.03619089609601        1.98236818718098     
+           2           2  -3.81222911545487       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 0.6274539488251158
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -4.00373038919574       -3.36861062035157     
+           2           1   1.99591616330909        1.98236818718098     
+           2           2  -3.81680990937137       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 1.3176532925327433
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.80415543614850       -3.36861062035157     
+           2           1  -1.98325257095125        1.98236818718098     
+           2           2  -3.72798015232852       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 2.0768725706111337
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.69228580216346       -3.36861062035157     
+           2           1  -1.98202592941130        1.98236818718098     
+           2           2  -3.63080973936259       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 2.9120137764973633
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.62050109386537       -3.36861062035157     
+           2           1   1.98222292332192        1.98236818718098     
+           2           2  -3.55965489139273       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 3.8306691029722155
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.57051542266211       -3.36861062035157     
+           2           1   1.98231555512716        1.98236818718098     
+           2           2  -3.50963573677272       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 4.841189962094553
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.53405500560066       -3.36861062035157     
+           2           1  -1.98234705598822        1.98236818718098     
+           2           2  -3.47316007266392       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 5.9527629071291255
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.50650368735087       -3.36861062035157     
+           2           1  -1.98235890560909        1.98236818718098     
+           2           2  -3.44560300357335       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 7.175493146667154
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.48508748260463       -3.36861062035157     
+           2           1  -1.98236381367918        1.98236818718098     
+           2           2  -3.42418441677022       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 8.520496410158987
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+
+Starting MPI -- dummy in this version
+ Smallest positive magnitude:  2.225073858507201E-308
+ Largest magnitude:  1.797693134862316E+308
+ Smallest relative spacing:  1.110223024625157E-016
+ Largest relative spacing:  2.220446049250313E-016
+ Log10(Base)  0.301029995663981     
+ Decimal precision for real(kind=cfp):          15
+ Number of bits in default integer:          32
+         212
+         212
+           1           1  -3.46805585084115       -3.36861062035157     
+           2           1   1.98236600810850        1.98236818718098     
+           2           2  -3.40715171994479       -3.30770543181088     
+ 1e integrals read
+ 1e integrals read
+ E=  -2.85589439249243     
+ E=  -2.08875752935928     
+ E=  -2.05840902613789     
+ E=  -2.05840902613756     
+ E=  -2.05840741810333     
+ E=  -2.00578511364371     
+ E=  -2.00033218337302     
+ E=  -2.00033218337298     
+ E=  -2.00033218337261     
+ E=  -2.00033218337240     
+[Molden Format]
+[Atoms] (AU)
+HE   1    2         0.000000000000       0.000000000000       0.000000000000
+X 100 1.0 1.05 0.0 10.0
+[GTO]
+  1 0
+ s    3  1.00
+       38.3600000000         0.0238090000
+        5.7700000000         0.1548910000
+        1.2400000000         0.4699870000
+1 11
+linear 1.05 2.2 1
+[1.05]
+0.0 0.0 1.0
+exp -10.0 10.0 20
+[-10.          -8.52049641  -7.17549315  -5.95276291  -4.84118996
+  -3.8306691   -2.91201378  -2.07687257  -1.31765329  -0.62745395
+   0.           0.62745395   1.31765329   2.07687257   2.91201378
+   3.8306691    4.84118996   5.95276291   7.17549315   8.52049641
+  10.        ]
+1
+1.0
+test.molden
+Read Coll Input Done
+Run Coll Done

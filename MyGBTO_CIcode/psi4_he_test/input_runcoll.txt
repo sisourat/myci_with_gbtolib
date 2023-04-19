@@ -1,0 +1,1 @@
+10 10 ci_eigvec ci_eigvec matcoll_

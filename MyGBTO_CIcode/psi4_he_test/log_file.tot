@@ -1,0 +1,1640 @@
+1.05
+ 
+ MPI not running.
+ 
+molden_input_obj has been initialized with the file: ./tmp
+Number of lines of the Molden file:              64
+The Molden file has been read into the memory.
+The Molden file contains the header for geometry data.
+The units of length are atomic units.
+The Molden file contains the header for GTO basis data.
+The GTO basis set contains     5 contracted and     7 corresponding primitive spherical GTOs.
+The corresponding number of contracted cartesian GTOs:     5
+Number of shells of contracted GTOs in the basis:     3
+The Molden file contains the header for Molecular orbitals data.
+Number of molecular orbitals on the file:     5
+The symmetry information for the orbitals is available.
+
+Number of atoms:     2
+ ***MESSAGE FROM ROUTINE read_molden_geometry IN LIBRARY molden_mod
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Molecule is not centered on the center of mass or atomic masses are not as in the program (Molpro?) used to generate the molden file.
+ *
+ *  WARNING NUMBER = 3
+ ***END OF MESSAGE
+Original center of mass coordinates are:     0.211202782853417E+00    0.000000000000000E+00   -0.973783611729901E+00
+Total mass of the molecule is (a.u.):     0.501042560000000E+01
+
+Nuclear data from the Molden file ./tmp (coordinates in a.u.): 
+Index of the nucleus; Z; Element name; Coordinates of the nucleus
+      1   2.0 HE         0.000000000000000        0.000000000000000        0.000000000000000
+     **   1.0 X          1.050000000000000        0.000000000000000       -4.841189962094553
+
+Reading GTO basis set from the Molden file...
+finished
+
+The number of orbitals per symmetry on the Molden file is:     5    0    0    0    0    0    0    0
+
+
+The Molden file ./tmp has been closed.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Symmetry: 1
+Keeping only the first     4 orbitals.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+
+Orbitals for all symmetries have been supplied. Generating indices and analyzing orbital coefficients...
+Solving Roothan equations
+Energies convergence parameter     0.100000000000000E-11, maximum number of iterations 20
+
+          Continuum orbitals will be ignored.
+
+          Sorting orbital energies...
+...done
+
+     List of Energy-sorted molecular orbitals (number.symmetry) follows:
+
+     |No |NUM.SYMM|ENERGY[eV]| 1 | 
+     |  1|     1.1|   -24.876|  1|
+     -------------------------
+     |  2|     2.1|    38.062|  2|
+     |  3|     3.1|    68.685|  3|
+     |  4|     4.1|    68.685|  4|
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+ ***MESSAGE FROM ROUTINE one_electron_integrals IN LIBRARY atomic_orbital_basis_obj
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Not enabled yet for nuclear attraction and property integrals.
+ *
+ *  WARNING NUMBER = -2
+ ***END OF MESSAGE
+          rank 0, array dimensions: 15         13
+Memory to be allocated for the array [Mib]:        0.001
+
+Precalculating the Gaunt coefficients for L_max = 0
+
+Size of the buffer cgaunt_prec is: 1
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 1
+
+Precalculating the Gaunt coefficients for L_max = 2
+
+Size of the buffer cgaunt_prec is: 8
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 18
+One_electron_integrals took [s]:         0.000499010086060
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+a > 0 but the basis contains no CGTO continuum functions so no CGTO tails have to be subtracted.
+          rank 0, array dimensions: 120          1
+Memory to be allocated for the array [Mib]:        0.001
+
+          Calculating GGGG integrals...
+
+Precalculating the Gaunt coefficients for L_max = 3
+
+Size of the buffer cgaunt_prec is: 14
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 40
+
+Precalculating the Gaunt coefficients for L_max = 4
+
+Size of the buffer cgaunt_prec is: 32
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 120
+Integral calculation took: .0 [s]
+Two_electron_integrals took [s]:         0.001018047332764
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              22    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000082015991211
+
+Roothan equations convergence: 1     0.203158287654268E+00
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000071048736572
+
+Roothan equations convergence: 2     0.171522772434152E-04
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+ 
+ MPI not running.
+ 
+molden_input_obj has been initialized with the file: ./tmp
+Number of lines of the Molden file:              64
+The Molden file has been read into the memory.
+The Molden file contains the header for geometry data.
+The units of length are atomic units.
+The Molden file contains the header for GTO basis data.
+The GTO basis set contains     5 contracted and     7 corresponding primitive spherical GTOs.
+The corresponding number of contracted cartesian GTOs:     5
+Number of shells of contracted GTOs in the basis:     3
+The Molden file contains the header for Molecular orbitals data.
+Number of molecular orbitals on the file:     5
+The symmetry information for the orbitals is available.
+
+Number of atoms:     2
+ ***MESSAGE FROM ROUTINE read_molden_geometry IN LIBRARY molden_mod
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Molecule is not centered on the center of mass or atomic masses are not as in the program (Molpro?) used to generate the molden file.
+ *
+ *  WARNING NUMBER = 3
+ ***END OF MESSAGE
+Original center of mass coordinates are:     0.211202782853417E+00    0.000000000000000E+00   -0.973783611729901E+00
+Total mass of the molecule is (a.u.):     0.501042560000000E+01
+
+Nuclear data from the Molden file ./tmp (coordinates in a.u.): 
+Index of the nucleus; Z; Element name; Coordinates of the nucleus
+      1   2.0 HE         0.000000000000000        0.000000000000000        0.000000000000000
+     **   1.0 X          1.050000000000000        0.000000000000000       -4.841189962094553
+
+Reading GTO basis set from the Molden file...
+finished
+
+The number of orbitals per symmetry on the Molden file is:     5    0    0    0    0    0    0    0
+
+
+The Molden file ./tmp has been closed.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Symmetry: 1
+Keeping only the first     4 orbitals.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+
+Orbitals for all symmetries have been supplied. Generating indices and analyzing orbital coefficients...
+Solving Roothan equations
+Energies convergence parameter     0.100000000000000E-11, maximum number of iterations 20
+
+          Continuum orbitals will be ignored.
+
+          Sorting orbital energies...
+...done
+
+     List of Energy-sorted molecular orbitals (number.symmetry) follows:
+
+     |No |NUM.SYMM|ENERGY[eV]| 1 | 
+     |  1|     1.1|   -24.876|  1|
+     -------------------------
+     |  2|     2.1|    38.062|  2|
+     |  3|     3.1|    68.685|  3|
+     |  4|     4.1|    68.685|  4|
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+ ***MESSAGE FROM ROUTINE one_electron_integrals IN LIBRARY atomic_orbital_basis_obj
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Not enabled yet for nuclear attraction and property integrals.
+ *
+ *  WARNING NUMBER = -2
+ ***END OF MESSAGE
+          rank 0, array dimensions: 15         13
+Memory to be allocated for the array [Mib]:        0.001
+
+Precalculating the Gaunt coefficients for L_max = 0
+
+Size of the buffer cgaunt_prec is: 1
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 1
+
+Precalculating the Gaunt coefficients for L_max = 2
+
+Size of the buffer cgaunt_prec is: 8
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 18
+One_electron_integrals took [s]:         0.000499010086060
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+a > 0 but the basis contains no CGTO continuum functions so no CGTO tails have to be subtracted.
+          rank 0, array dimensions: 120          1
+Memory to be allocated for the array [Mib]:        0.001
+
+          Calculating GGGG integrals...
+
+Precalculating the Gaunt coefficients for L_max = 3
+
+Size of the buffer cgaunt_prec is: 14
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 40
+
+Precalculating the Gaunt coefficients for L_max = 4
+
+Size of the buffer cgaunt_prec is: 32
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 120
+Integral calculation took: .0 [s]
+Two_electron_integrals took [s]:         0.001018047332764
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              22    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000082015991211
+
+Roothan equations convergence: 1     0.203158287654268E+00
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000071048736572
+
+Roothan equations convergence: 2     0.171522772434152E-04
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+ 
+ MPI not running.
+ 
+molden_input_obj has been initialized with the file: ./tmp
+Number of lines of the Molden file:              64
+The Molden file has been read into the memory.
+The Molden file contains the header for geometry data.
+The units of length are atomic units.
+The Molden file contains the header for GTO basis data.
+The GTO basis set contains     5 contracted and     7 corresponding primitive spherical GTOs.
+The corresponding number of contracted cartesian GTOs:     5
+Number of shells of contracted GTOs in the basis:     3
+The Molden file contains the header for Molecular orbitals data.
+Number of molecular orbitals on the file:     5
+The symmetry information for the orbitals is available.
+
+Number of atoms:     2
+ ***MESSAGE FROM ROUTINE read_molden_geometry IN LIBRARY molden_mod
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Molecule is not centered on the center of mass or atomic masses are not as in the program (Molpro?) used to generate the molden file.
+ *
+ *  WARNING NUMBER = 3
+ ***END OF MESSAGE
+Original center of mass coordinates are:     0.211202782853417E+00    0.000000000000000E+00   -0.585738488860696E+00
+Total mass of the molecule is (a.u.):     0.501042560000000E+01
+
+Nuclear data from the Molden file ./tmp (coordinates in a.u.): 
+Index of the nucleus; Z; Element name; Coordinates of the nucleus
+      1   2.0 HE         0.000000000000000        0.000000000000000        0.000000000000000
+     **   1.0 X          1.050000000000000        0.000000000000000       -2.912013776497363
+
+Reading GTO basis set from the Molden file...
+finished
+
+The number of orbitals per symmetry on the Molden file is:     5    0    0    0    0    0    0    0
+
+
+The Molden file ./tmp has been closed.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Symmetry: 1
+Keeping only the first     4 orbitals.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+
+Orbitals for all symmetries have been supplied. Generating indices and analyzing orbital coefficients...
+Solving Roothan equations
+Energies convergence parameter     0.100000000000000E-11, maximum number of iterations 20
+
+          Continuum orbitals will be ignored.
+
+          Sorting orbital energies...
+...done
+
+     List of Energy-sorted molecular orbitals (number.symmetry) follows:
+
+     |No |NUM.SYMM|ENERGY[eV]| 1 | 
+     |  1|     1.1|   -24.876|  1|
+     -------------------------
+     |  2|     2.1|    38.062|  2|
+     |  3|     3.1|    68.685|  3|
+     |  4|     4.1|    68.685|  4|
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+ ***MESSAGE FROM ROUTINE one_electron_integrals IN LIBRARY atomic_orbital_basis_obj
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Not enabled yet for nuclear attraction and property integrals.
+ *
+ *  WARNING NUMBER = -2
+ ***END OF MESSAGE
+          rank 0, array dimensions: 15         13
+Memory to be allocated for the array [Mib]:        0.001
+
+Precalculating the Gaunt coefficients for L_max = 0
+
+Size of the buffer cgaunt_prec is: 1
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 1
+
+Precalculating the Gaunt coefficients for L_max = 2
+
+Size of the buffer cgaunt_prec is: 8
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 18
+One_electron_integrals took [s]:         0.000555992126465
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+a > 0 but the basis contains no CGTO continuum functions so no CGTO tails have to be subtracted.
+          rank 0, array dimensions: 120          1
+Memory to be allocated for the array [Mib]:        0.001
+
+          Calculating GGGG integrals...
+
+Precalculating the Gaunt coefficients for L_max = 3
+
+Size of the buffer cgaunt_prec is: 14
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 40
+
+Precalculating the Gaunt coefficients for L_max = 4
+
+Size of the buffer cgaunt_prec is: 32
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 120
+Integral calculation took: .0 [s]
+Two_electron_integrals took [s]:         0.001045942306519
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              22    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000085830688477
+
+Roothan equations convergence: 1     0.324003380542284E+00
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000075101852417
+
+Roothan equations convergence: 2     0.374328517680489E-04
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000100851058960
+
+Roothan equations convergence: 3     0.282255398253994E-05
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000092029571533
+
+Roothan equations convergence: 4     0.209508394632962E-06
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000072002410889
+
+Roothan equations convergence: 5     0.153181742845732E-07
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000072002410889
+
+Roothan equations convergence: 6     0.109390896341210E-08
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000076055526733
+
+Roothan equations convergence: 7     0.749214024153844E-10
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000072002410889
+
+Roothan equations convergence: 8     0.472688554964407E-11
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              34    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000072956085205
+
+Roothan equations convergence: 9     0.297095681389692E-12
+
+Roothan equations converged after 9 iterations
+
+          Continuum orbitals will be ignored.
+
+          Sorting orbital energies...
+...done
+
+     List of Energy-sorted molecular orbitals (number.symmetry) follows:
+
+     |No |NUM.SYMM|ENERGY[eV]| 1 | 
+     |  1|     1.1|   -33.663|  1|
+     -------------------------
+     |  2|     2.1|    29.246|  2|
+     |  3|     3.1|    60.081|  3|
+     |  4|     4.1|    60.083|  4|
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+
+Orbitals for all symmetries have been supplied. Generating indices and analyzing orbital coefficients...
+
+          Continuum orbitals will be ignored.
+
+          Sorting orbital energies...
+...done
+
+     List of Energy-sorted molecular orbitals (number.symmetry) follows:
+
+     |No |NUM.SYMM|ENERGY[eV]| 1 | 
+     |  1|     1.1|   -33.663|  1|
+     -------------------------
+     |  2|     2.1|    29.246|  2|
+     |  3|     3.1|    60.081|  3|
+     |  4|     4.1|    60.083|  4|
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+ ***MESSAGE FROM ROUTINE one_electron_integrals IN LIBRARY atomic_orbital_basis_obj
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Not enabled yet for nuclear attraction and property integrals.
+ *
+ *  WARNING NUMBER = -2
+ ***END OF MESSAGE
+          rank 0, array dimensions: 22791         13
+Memory to be allocated for the array [Mib]:        2.260
+
+Precalculating the Gaunt coefficients for L_max = 4
+
+Size of the buffer cgaunt_prec is: 32
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 120
+ 
+ MPI not running.
+ 
+molden_input_obj has been initialized with the file: ./tmp
+Number of lines of the Molden file:              64
+The Molden file has been read into the memory.
+The Molden file contains the header for geometry data.
+The units of length are atomic units.
+The Molden file contains the header for GTO basis data.
+The GTO basis set contains     5 contracted and     7 corresponding primitive spherical GTOs.
+The corresponding number of contracted cartesian GTOs:     5
+Number of shells of contracted GTOs in the basis:     3
+The Molden file contains the header for Molecular orbitals data.
+Number of molecular orbitals on the file:     5
+The symmetry information for the orbitals is available.
+
+Number of atoms:     2
+ ***MESSAGE FROM ROUTINE read_molden_geometry IN LIBRARY molden_mod
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Molecule is not centered on the center of mass or atomic masses are not as in the program (Molpro?) used to generate the molden file.
+ *
+ *  WARNING NUMBER = 3
+ ***END OF MESSAGE
+Original center of mass coordinates are:     0.211202782853417E+00    0.000000000000000E+00    0.000000000000000E+00
+Total mass of the molecule is (a.u.):     0.501042560000000E+01
+
+Nuclear data from the Molden file ./tmp (coordinates in a.u.): 
+Index of the nucleus; Z; Element name; Coordinates of the nucleus
+      1   2.0 HE         0.000000000000000        0.000000000000000        0.000000000000000
+     **   1.0 X          1.050000000000000        0.000000000000000        0.000000000000000
+
+Reading GTO basis set from the Molden file...
+finished
+
+The number of orbitals per symmetry on the Molden file is:     5    0    0    0    0    0    0    0
+
+
+The Molden file ./tmp has been closed.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Symmetry: 1
+Keeping only the first     4 orbitals.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+ 
+ MPI not running.
+ 
+molden_input_obj has been initialized with the file: ./tmp
+Number of lines of the Molden file:              64
+The Molden file has been read into the memory.
+The Molden file contains the header for geometry data.
+The units of length are atomic units.
+The Molden file contains the header for GTO basis data.
+The GTO basis set contains     5 contracted and     7 corresponding primitive spherical GTOs.
+The corresponding number of contracted cartesian GTOs:     5
+Number of shells of contracted GTOs in the basis:     3
+The Molden file contains the header for Molecular orbitals data.
+Number of molecular orbitals on the file:     5
+The symmetry information for the orbitals is available.
+
+Number of atoms:     2
+ ***MESSAGE FROM ROUTINE read_molden_geometry IN LIBRARY molden_mod
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Molecule is not centered on the center of mass or atomic masses are not as in the program (Molpro?) used to generate the molden file.
+ *
+ *  WARNING NUMBER = 3
+ ***END OF MESSAGE
+Original center of mass coordinates are:     0.211202782853417E+00    0.000000000000000E+00    0.973783611729901E+00
+Total mass of the molecule is (a.u.):     0.501042560000000E+01
+
+Nuclear data from the Molden file ./tmp (coordinates in a.u.): 
+Index of the nucleus; Z; Element name; Coordinates of the nucleus
+      1   2.0 HE         0.000000000000000        0.000000000000000        0.000000000000000
+     **   1.0 X          1.050000000000000        0.000000000000000        4.841189962094553
+
+Reading GTO basis set from the Molden file...
+finished
+
+The number of orbitals per symmetry on the Molden file is:     5    0    0    0    0    0    0    0
+
+
+The Molden file ./tmp has been closed.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Symmetry: 1
+Keeping only the first     4 orbitals.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+Order of IRRs is: 1 A  
+Nucleus  0 is the scattering center.
+Nucleus  1 HE is symmetrically non-redundant.
+Nucleus ** X  is symmetrically non-redundant.
+Nucleus  0 sc is symmetrically non-redundant.
+Non-redundant nucleus  1 HE has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus ** X  has  0 symmetrically equivalent nuclei.
+Non-redundant nucleus  0 sc has  0 symmetrically equivalent nuclei.
+
+Orbitals for all symmetries have been supplied. Generating indices and analyzing orbital coefficients...
+Solving Roothan equations
+Energies convergence parameter     0.100000000000000E-11, maximum number of iterations 20
+
+          Continuum orbitals will be ignored.
+
+          Sorting orbital energies...
+...done
+
+     List of Energy-sorted molecular orbitals (number.symmetry) follows:
+
+     |No |NUM.SYMM|ENERGY[eV]| 1 | 
+     |  1|     1.1|   -24.876|  1|
+     -------------------------
+     |  2|     2.1|    38.062|  2|
+     |  3|     3.1|    68.685|  3|
+     |  4|     4.1|    68.685|  4|
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+ ***MESSAGE FROM ROUTINE one_electron_integrals IN LIBRARY atomic_orbital_basis_obj
+ ***INFORMATIVE MESSAGE, PROG CONTINUES, TRACEBACK REQUESTED
+ *  Not enabled yet for nuclear attraction and property integrals.
+ *
+ *  WARNING NUMBER = -2
+ ***END OF MESSAGE
+          rank 0, array dimensions: 15         13
+Memory to be allocated for the array [Mib]:        0.001
+
+Precalculating the Gaunt coefficients for L_max = 0
+
+Size of the buffer cgaunt_prec is: 1
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 1
+
+Precalculating the Gaunt coefficients for L_max = 2
+
+Size of the buffer cgaunt_prec is: 8
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 18
+One_electron_integrals took [s]:         0.000519037246704
+Requested minimal relative precision:     0.100000000000000E-09
+Requested threshold for the magnitude of the retained integrals:     0.100000000000000E-10
+Requested value of the R-matrix radius:     0.250000000000000E+02
+Maximum allowed size of the temporary ijrs array (Mib):   2000.000
+Integrals including ONE PARTICLE in the continuum selected.
+a > 0 but the basis contains no CGTO continuum functions so no CGTO tails have to be subtracted.
+          rank 0, array dimensions: 120          1
+Memory to be allocated for the array [Mib]:        0.001
+
+          Calculating GGGG integrals...
+
+Precalculating the Gaunt coefficients for L_max = 3
+
+Size of the buffer cgaunt_prec is: 14
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 40
+
+Precalculating the Gaunt coefficients for L_max = 4
+
+Size of the buffer cgaunt_prec is: 32
+Precalculating Gaunt coefficients for complex spherical harmonics...
+Total number of Gaunt coefficients evaluated and stored: 120
+Integral calculation took: .0 [s]
+Two_electron_integrals took [s]:         0.001106977462769
+AO integrals with header: atomic_orbital_basis_obj:One electron integrals                                                                                                                                                                
+On input there is 13 types of AO integrals
+Number of AO integrals of each type: 15
+          rank 0, array dimensions: 10         13
+Memory to be allocated for the array [Mib]:        0.001
+Transforming AO integral type: Overlap integrals ...
+...done
+Transforming AO integral type: Kinetic energy integrals ...
+...done
+Transforming AO integral type: Nuclear attraction integrals ...
+...done
+Transforming AO integral type: One electron Hamiltonian integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+Transforming AO integral type: Property integrals ...
+...done
+AO integrals with header: atomic_orbital_basis_obj:Two-electron integrals                                                                                                                                                                
+On input there is 1 types of AO integrals
+Total number of AO integrals of each type: 120
+Every process keeps the full set of AO integrals.
+Transforming AO integral type 1 ...
+Size of the ijrs array limited to (Mib): 2000.000
+
+Total number of (rs)-indices: 15
+Number of (rs)-index blocks: 1, number of (rs)-indices in block: 15
+
+Size of the ijrs buffer to be allocated [Mib]:         0.002975463867188
+Total number of MO integrals of each type that will be obtained: 55
+          rank 0, array dimensions: 55          1
+Memory to be allocated for the array [Mib]:        0.000
+Memory storage for temporary arrays ijkl_integrals,ijkl_indices (MiB):    0.001
+Memory has been successfuly allocated.
+
+(rs)-index block: 1
+(pq|rs) -> (ij|rs) for rs-block: 1->15 done in    0.000 [s]
+(ij|rs) -> (ij|kl) contribution done in    0.000 [s]
+
+Sorting the final array of integrals...
+...done and took [s]:    0.000
+
+Number of AO integrals used: 225
+Total time for (pq|rs) -> (ij|rs)    0.000 [s]
+Total time for (ij|rs) -> (ij|kl)    0.000 [s]
+(pq|rs) -> (ij|kl) done in    0.000 [s]
+Number of ijkl integrals:              22    0.000
+The AO integrals array will be kept in memory.
+Two_electron_integrals took [s]:         0.000082969665527
