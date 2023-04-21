@@ -55,6 +55,7 @@ ista = 1
   tdyn = t2-t1
   write(*,*)'DYN takes',tdyn
   write(*,'(5000(f12.6,1X))')(cdabs(psi(i))**2,i=1,ntotsta), sum(cdabs(psi(:))**2)
+  write(100,'(5000(f12.6,1X))')bproj,(cdabs(psi(i))**2,i=1,ntotsta), sum(cdabs(psi(:))**2),vproj
 
   deallocate(mcoup,matintrp,psi,rmat2intrp,cmat2intrp)
 

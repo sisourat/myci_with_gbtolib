@@ -20,3 +20,4 @@ if __name__ == '__main__':
     for ib in range(nbb):
        os.system('cp matcoll'+str(ib)+' matcoll') 
        os.system(run_prop) 
+       os.system('cp fort.100 '+' prob'+str(ib)) 

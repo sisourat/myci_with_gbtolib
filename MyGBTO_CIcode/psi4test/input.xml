@@ -7,7 +7,7 @@
  </general>
 
  <block>
-   <space ne='2' imo='1' fmo='3' />
+   <space ne='2' imo='1' fmo='12' />
  </block>
 
 </input>

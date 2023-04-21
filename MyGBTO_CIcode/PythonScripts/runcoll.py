@@ -120,7 +120,7 @@ def runcoll(inp_param):
  #      os.system('echo '+str(b) +'> log_file.tot')
        os.system('echo '+ str(b) + ' ' + str(inp_param['vz']) +  '> matcoll')
 #       os.system('echo '+  str(inp_param['stamax']-inp_param['stamin']) + ' ' + str(inp_param['stamax']-inp_param['stamin'])  +' >> matcoll')
-       os.system('echo '+  str(inp_param['stamax']-inp_param['stamin']) + ' ' + str(len(inp_param['zgrid']))  +' >> matcoll')
+       os.system('echo '+  str(inp_param['stamax']-inp_param['stamin']+1) + ' ' + str(len(inp_param['zgrid']))  +' >> matcoll')
 
        for z in inp_param['zgrid']:
           os.system('echo '+str(z) +'>> matcoll')
@@ -130,7 +130,7 @@ def runcoll(inp_param):
           os.system(lsed)
           os.system(run_scatci_integrals_vp)
 
-          lecho = 'echo ' + str(inp_param['stamax']-inp_param['stamin']) + ' ' + str(inp_param['stamax']-inp_param['stamin']) + ' '  + inp_param['ci_fname'] + ' ' + inp_param['ci_fname'] + ' matcoll_ > input_runcoll.txt' 
+          lecho = 'echo ' + str(inp_param['stamax']-inp_param['stamin']+1) + ' ' + str(inp_param['stamax']-inp_param['stamin']+1) + ' '  + inp_param['ci_fname'] + ' ' + inp_param['ci_fname'] + ' matcoll_ > input_runcoll.txt' 
           os.system(lecho) #compute the coupling matrix between CI states
           os.system(run_coll_coupling_cistates) #compute the coupling matrix between CI states
           os.system('cat fort.10 >> matcoll') 

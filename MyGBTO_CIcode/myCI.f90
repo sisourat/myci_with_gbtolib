@@ -63,6 +63,7 @@ PROGRAM myCI
 !   write(*,*)fileigvec
 
   open(unit=22,file=fileigvec)
+  open(unit=24,file='eigval')
 
 ! reads CSF
    read(21,*)nalpha,nbeta
@@ -123,6 +124,7 @@ enddo
   do i = 1, nsta
     write(22,*)
     write(22,*)'E=',eigci(i)
+    write(24,*)eigci(i)
     write(*,*)i,eigci(i)
     do j = 1, ndim
 !     if(abs(cimat(j,i))<prttol) cycle
@@ -136,6 +138,7 @@ enddo
   enddo
  close(21)
  close(22)
+ close(24)
 
  deallocate(csfs,cimat,cimat1e,cimat2e,eigci,tempa)
  call FINALIZE_MPI
